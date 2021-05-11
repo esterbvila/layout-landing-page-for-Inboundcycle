@@ -138,15 +138,18 @@ button{
 /* FOOTER */
 footer{
     background-color:#4f4f51;
-    height:150px;
+    min-height:150px;
+    width:100%;
+    position:absolute;
+    bottom:0;
 }
 div.footer-frame{
     display:flex;
     justify-content: space-between;
     max-width:1170px;
     margin:auto;
-    height:150px;
     font-size:13px;
+    min-height:150px;
 }
 div.footer-frame > img.logotype{
     width:145px;
@@ -225,7 +228,10 @@ small{
         margin:50px auto;
     }
     form{
-        margin:auto auto 60px auto;
+        margin:auto auto 10% auto;
+    }
+    footer{
+        position:unset;
     }
     div.footer-frame{
         padding:0 32px;
