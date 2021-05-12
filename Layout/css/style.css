@@ -309,3 +309,8 @@ small{
         order:2;
     }
 }
+@media only screen and (max-height: 1107px){
+    footer{
+        position:relative;
+    }
+}
