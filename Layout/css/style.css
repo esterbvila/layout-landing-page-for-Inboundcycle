@@ -1,4 +1,3 @@
-/*1660 × 1107 */
 body{
     margin:0;
     border-top: #ed5900 solid 4px;
@@ -209,7 +208,6 @@ small{
 .caption > p{
     margin: 16px auto;
 }
-
 /* MEDIA QUERIES */
 @media only screen and (max-width: 1200px){
     header{
